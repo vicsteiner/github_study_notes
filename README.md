@@ -104,3 +104,5 @@ Steps:
   - Define the actual script or GitHub Action (a peace of code that we can run as part of a job that we take from somewhere else like another repository or from GitHub Atctions marketplace for instance) that will be executed
   - Run sequentially by default
 
+## First exercise - create a siple workflow
+
