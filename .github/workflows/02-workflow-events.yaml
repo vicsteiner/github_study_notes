@@ -1,6 +1,14 @@
 name: 02 - Workflow Events
 
-on: push
+#on: push
+
+on:
+    push:
+    pull_request:
+    schedule:
+        - cron: '0/5 * * * *'
+    # enabling triggerig rom the UI
+    workflow_dispatch:
 
 jobs:
     echo:
