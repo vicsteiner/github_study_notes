@@ -5,8 +5,8 @@ name: 02 - Workflow Events
 on:
     #push:
     #pull_request:
-    schedule:
-        - cron: '*/5 * * * *'
+    #schedule:
+    #    - cron: '*/5 * * * *'
     # enabling triggerig rom the UI
     workflow_dispatch:
 
