@@ -106,3 +106,15 @@ Steps:
 
 ## First exercise - create a siple workflow
 
+DONE! Check commits.
+
+## Workflow events
+
+Events are triggers and there are multiple wayt to trigger a worklow
+
+- Repository level: push, issues, pull_request, pull_request_review, fork ... and many others
+- Manual triggers: triggered via UI, API, from another workflw
+- Schedule; crnjob
+
+Docs are at https://docs.github.com/en/actions/reference/workflows-and-actions/events-that-trigger-workflows
+
