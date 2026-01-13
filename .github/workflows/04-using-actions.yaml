@@ -16,10 +16,5 @@ jobs:
               run: ls -a
               working-directory: 04-using-actions/react-app
             - name: Install Dependencies
-              run: |
-                cd 04-using-actions/react-app
-                npm ci
-
-
-
-        # 2. Execute automated tests
+              run: npm ci
+              working-directory: 04-using-actions/react-app
