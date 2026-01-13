@@ -129,3 +129,17 @@ Docs are at https://docs.github.com/en/actions/reference/workflows-and-actions/e
   - managed by yourself
   - jobs can share the same VM or use machines with state
   - do not use those in public repos
+
+Each job in a workflow has a set up steps where one can check the Runner Image log which contains links to thew included software in the image as well as the image release itself.
+
+## Using pre-built actions
+
+Actions built by GitHUb r other vendors like AWS for instance. 
+
+- Prevents code duplication (encapsulaiton) and reduces the chances of mistake for instances in tasks like setting up node js in a VM.
+- Can be configured via the with key-value pair enabling flexibility and reusability
+- Can be combined with other steps; can be used to encapsulate tasks beore running other commands
+- We can create our own actions for public or private use; not restricted only to the actions available at the marketplace (https://github.com/marketplace?type=actions)
+
+
+
