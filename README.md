@@ -118,3 +118,14 @@ Events are triggers and there are multiple wayt to trigger a worklow
 
 Docs are at https://docs.github.com/en/actions/reference/workflows-and-actions/events-that-trigger-workflows
 
+## Workflow runners
+
+- GitHub-hosted runners
+  - managed service
+  - a VM is scoped to a job (each job receives a clean VM); steps share the VM but jobs don't
+- Self-hosted runners
+  - full controll
+  - run in your own infrastructure
+  - managed by yourself
+  - jobs can share the same VM or use machines with state
+  - do not use those in public repos
