@@ -153,4 +153,3 @@ Activity types specify which types fo certain triggers execute our workflow. For
 
 - https://docs.github.com/en
 - https://docs.github.com/en/actions
--
