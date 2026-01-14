@@ -141,5 +141,15 @@ Actions built by GitHUb r other vendors like AWS for instance.
 - Can be combined with other steps; can be used to encapsulate tasks beore running other commands
 - We can create our own actions for public or private use; not restricted only to the actions available at the marketplace (https://github.com/marketplace?type=actions)
 
+## Using Event Filters and Activity Types
 
+Event filters  allow us **to speciy under which conditions** a specific event triggers our workflow.
 
+Under a push event fr instaqnce we can specify filters like branches, branch_ignore, tags, tags_ignore, paths, paths_ignore ... (https://docs.github.com/en/actions/reference/workflows-and-actions/workflow-syntax#onpushbranchestagsbranches-ignoretags-ignore)
+
+Activity types specify which types fo certain triggers execute our workflow. For instance a pull_request event has several steps in its life cycle as. opened, synchronize, closed, assigned, labeled, edited etc. An activity type allow us to define in which step of the event the actions is to be triggered (https://docs.github.com/en/actions/reference/workflows-and-actions/events-that-trigger-workflows#pull_request)
+
+## Reerences
+
+- https://docs.github.com/en
+- https://docs.github.com/en/actions
