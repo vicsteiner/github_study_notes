@@ -33,7 +33,7 @@ jobs:
             - name: Retrieve variable
               run: |
                 echo "Variable value: ${{ vars.MY_VAR }}"
-            - name: Print env variables 02
+            - name: Print env variables 01
               env:
                 MY_STEP_VAR: "step"
                 MY_OVERWRITTEN_VAR: "step"
