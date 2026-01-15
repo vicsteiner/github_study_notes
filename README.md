@@ -164,7 +164,27 @@ ${{ <expression> }} syntax
 Can by any combination of literal values, context values, functions
 Support use of functions and logic operators
 
-## Reerences
+## Variables
+
+In a single workflow they can be defined at levels
+
+- workflow
+    - job
+        - step
+
+There is a precedence order applied. The variable defined in a inner level overwrittes uotside level variables with same name.
+
+For variables to be shared across multiple workflows
+
+- organization
+    - repository
+        - environment
+
+Precedence applies as previously mentioned
+
+
+
+## References
 
 - https://docs.github.com/en
 - https://docs.github.com/en/actions
