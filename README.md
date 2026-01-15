@@ -149,6 +149,16 @@ Under a push event fr instaqnce we can specify filters like branches, branch_ign
 
 Activity types specify which types fo certain triggers execute our workflow. For instance a pull_request event has several steps in its life cycle as. opened, synchronize, closed, assigned, labeled, edited etc. An activity type allow us to define in which step of the event the actions is to be triggered (https://docs.github.com/en/actions/reference/workflows-and-actions/events-that-trigger-workflows#pull_request)
 
+## Workflow contexts
+
+Workflow contexts (sources of data for different dimensions of our workflow) access information about runs, variables, jobs, repository and more.
+
+Contexts are for instance github, env, inputs (passed via the kyword with to an action, reusable wrkflow, manually triggered workflow) and vars (contains custom coniguration variables set at the organization, repository and environment levels). Ohter cntexts exist like secrets, matrix, needs ...
+
+https://docs.github.com/en/actions/reference/workflows-and-actions/contexts
+
+
+
 ## Reerences
 
 - https://docs.github.com/en
