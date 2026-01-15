@@ -157,7 +157,12 @@ Contexts are for instance github, env, inputs (passed via the kyword with to an 
 
 https://docs.github.com/en/actions/reference/workflows-and-actions/contexts
 
+## Expressions
 
+Used to reference information from multiple sources within the workflow
+${{ <expression> }} syntax
+Can by any combination of literal values, context values, functions
+Support use of functions and logic operators
 
 ## Reerences
 
