@@ -182,7 +182,16 @@ For variables to be shared across multiple workflows
 
 Precedence applies as previously mentioned
 
+## Functions
 
+Out-of-the-box functions to model complex behaviour
+
+- general purpose functions
+  - set of utility functions to interact with data from multiple contexts to model complex behaviour like advanced control of the workflow job execution
+- status check functions
+  - a set of functions that allow using the status of the workflow, previous jobs or steps to define wether a certain job or step should be executed
+
+https://docs.github.com/en/actions/reference/workflows-and-actions/expressions?versionId=free-pro-team%40latest&productId=actions#functions
 
 ## References
 
