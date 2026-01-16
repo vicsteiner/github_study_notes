@@ -208,6 +208,12 @@ https://docs.github.com/en/actions/reference/workflows-and-actions/expressions?v
 - provide informaiton to customize workflows and actions
 - enable to request information from workflow or action caller and use this info in runtime
 
+## Outputs
+
+Output data from jobs for later usage
+
+
+
 ## References
 
 - https://docs.github.com/en
