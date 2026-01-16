@@ -19,7 +19,7 @@ jobs:
     # can be used for testing but should not do something like that in prod
     #continue-on-error: true
     steps:
-      - name: Running unit tests
+      - name: Running unit testss
         run: echo "Running tests..."
       - name: Failing tests
         if: ${{ !inputs.pass-unit-tests }}
