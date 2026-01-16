@@ -203,6 +203,11 @@ https://docs.github.com/en/actions/reference/workflows-and-actions/expressions?v
 - non-dependent execution: defaults is that all jobs execute in parallel
 - dependent execution: jobs wait for their dependencies to successfully execute.
 
+## Inputs
+
+- provide informaiton to customize workflows and actions
+- enable to request information from workflow or action caller and use this info in runtime
+
 ## References
 
 - https://docs.github.com/en
