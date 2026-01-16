@@ -193,6 +193,16 @@ Out-of-the-box functions to model complex behaviour
 
 https://docs.github.com/en/actions/reference/workflows-and-actions/expressions?versionId=free-pro-team%40latest&productId=actions#functions
 
+## Managing wrkflow execution flow
+
+- standard execution: downstream jobs (I had understod jbs execute in parallel) and steps execute if and only if upstream jobs and steps succeed
+- conditional execution: allows for downstream jobs and steps to be executed even after/if upstgream failures happen
+
+*needs* keyword allws for sequential job execution
+
+- non-dependent execution: defaults is that all jobs execute in parallel
+- dependent execution: jobs wait for their dependencies to successfully execute.
+
 ## References
 
 - https://docs.github.com/en
